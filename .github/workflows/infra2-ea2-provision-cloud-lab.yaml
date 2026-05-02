@@ -98,8 +98,8 @@ jobs:
       - name: Descargar infra (SharedWorkflows)
         uses: actions/checkout@v4
         with:
-          repository: /bapp86/k8s-02-05
-          ref: ${{ github.repository == 'bapp86/k8s-02-05' && github.ref || 'EA2' }}
+          repository: asanchezo-duoc/AUY1104-SharedWorkflows
+          ref: ${{ github.repository == 'asanchezo-duoc/AUY1104-SharedWorkflows' && github.ref || 'EA2' }}
 
       - name: Credenciales AWS
         uses: aws-actions/configure-aws-credentials@v4
